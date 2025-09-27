@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+
 .playwrite-hu-1 {
   font-family: "Playwrite HU", cursive;
   font-optical-sizing: auto;

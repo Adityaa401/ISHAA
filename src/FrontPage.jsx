@@ -13,11 +13,11 @@ export default function FrontPage() {
 
 
   const messages = [
-    "You’re stronger than you think 💪",
-    "Bad days don’t last, but you do 💖",
-    "The world is better with you in it 🌍",
-    "Smile pls, u look the cutest when you do😊",
-    "I’m proud of you ✨",
+    "You’re stronger than you think 💪 (1/5)",
+    "Bad days don’t last, but you do 💖 (2/5)",
+    "The world is better with you in it 🌍 (3/5)",
+    "Smile pls, u look the cutest when you do😊 (4/5)",
+    "I’m proud of you ✨ (5/5)",
   ];
 
   const photos = [
@@ -38,8 +38,8 @@ export default function FrontPage() {
   const hearts = useMemo(
   () =>
     Array.from({ length: 20 }).map(() => ({
-      left: Math.random() * 100,
-      top: Math.random() * 100,
+      left: Math.random() * 90,
+      top: Math.random() * 90,
       size: 16 + Math.random() * 24,
       duration: 8 + Math.random() * 8,
       delay: Math.random() * 2, // <- added delay
@@ -91,7 +91,7 @@ useEffect(() => {
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden flex flex-col items-center justify-center text-center">
+    <div className="relative min-h-screen w-full overflow-hidden flex flex-col items-center justify-center text-center no-scrollbar">
       {/* Background gradient */}
       <motion.div
         className="absolute inset-0"
