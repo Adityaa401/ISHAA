@@ -15,7 +15,7 @@ export default function FrontPage() {
   const messages = [
     "You’re stronger than you think 💪 (1/5)",
     "Bad days don’t last, but you do 💖 (2/5)",
-    "The world is better with you in it 🌍 (3/5)",
+    "Protect from evil eyes 🧿 (3/5)",
     "Smile pls, u look the cutest when you do😊 (4/5)",
     "More power to u babygirl💕✨ (5/5)",
   ];
