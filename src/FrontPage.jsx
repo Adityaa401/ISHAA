@@ -17,7 +17,7 @@ export default function FrontPage() {
     "Bad days don’t last, but you do 💖 (2/5)",
     "The world is better with you in it 🌍 (3/5)",
     "Smile pls, u look the cutest when you do😊 (4/5)",
-    "I’m proud of you ✨ (5/5)",
+    "More power to u babygirl💕✨ (5/5)",
   ];
 
   const photos = [
